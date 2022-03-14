@@ -28,9 +28,3 @@ npx hardhat test
 - ✓ Verify locking and unlocking is properly functioning.
 - ✓ Ensure only owner can call.
 - ✓ Verify only owner can call
-## Roadblocks
-### Reentrancy Attack unexpected revert message
-- Had a roadblock while testing reentrancy attack.
-- By receiving unexpected revert message on this test.
-- Despite that the expected behavious is to revert is correct but I had to investigate more to know why it is not reverting for the expected reason.
-- By investigating further I could find out the cause.
